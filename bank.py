@@ -2,7 +2,6 @@ import streamlit as st
 from PIL import Image
 import pickle
 
-
 model1=open('./Model/ML_Model.pkl')
 model = pickle.load(model1)
 
